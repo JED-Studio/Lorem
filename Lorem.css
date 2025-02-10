@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: "Prata", serif;
+    font-weight: 400;
+
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.Lorem__beginning{
+    display: flex;
+    height: 1009px;
+    background-color: #222222;
+    color: white;
+}
+
+
+
+.Lorem__container{
+    flex: 60%;
+    margin-left: 163px;
+}
+
+header{
+    margin-bottom: 263px;
+}
+
+
+.Lorem__beginning-logo-nav{
+    display: flex;
+    align-items: center;
+}
+
+
+.Lorem__beginning-logo-nav > h3{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px; 
+    letter-spacing: 3%; 
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 40px;
+}
+
+nav ul li a{
+    font-family: Arial, sans-serif; 
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%; 
+
+}
+
+.Lorem__beginning-content{
+    width: 100%;
+    max-width: 537px;
+}
+
+.Lorem__beginning-content > h3{
+    font-family: Arial, sans-serif; 
+    font-weight: 400; 
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    margin-bottom: 64px;
+}
+
+.Lorem__beginning-content > h1{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: 0;
+    margin-bottom: 50px;
+
+}
+
+.Lorem__beginning-content-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.Lorem__beginning-content-list span {
+    display: flex; 
+    background-color: rgba(40, 40, 41, 0.7);
+}
+
+.Lorem__beginning-content-list span > img{
+    width: 39px;
+    height: 37px;
+}
+
+.Lorem__image{
+    flex: 40%;
+}
+
+img{
+    width: 100%;
+}
+
